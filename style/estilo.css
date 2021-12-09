@@ -2,23 +2,41 @@
 	margin: 0;
 	top: 0;
 }
-@media (min-width: 768px){
-	
+@media screen and (max-width: 768px){
+	.desktopOnly{
+	display: none;
+	}
+	#dropdownMenuButton1{
+	background-color: #ffb4a2;
+	color: #6d6875;
+	}
+	.dropdown-menu .dropdown-item{
+	background-color: #ffb4a2;
+	color: #6d6875;
+	}
+}
+.desktopOnly a{
+	color: #6d6875;
+}
+.desktopOnly a:hover{
+	color: #b5838d;
+}
+.colorFondo{
+	background-color: #f8edeb;
 }
 .imagenPeq{
-	width: 10rem;
-	height: auto;
-	padding-left: 20px;
-}
-.imgEventos{
-	width: 57%;
-	height: auto;
-}
-.imgProd{
- 	width: 70%;
- 	height: auto;
-}
-.
+		width: 10rem;
+		height: auto;
+		padding-left: 20px;
+	}
+	.imgEventos{
+		width: 57%;
+		height: auto;
+	}
+	.imgProd{
+	 	width: 70%;
+	 	height: auto;
+	}
 /*Estilo de footer*/
 .edicionFooter {
 	background-color: #ffd6a5;
