@@ -2,6 +2,9 @@
 	margin: 0;
 	top: 0;
 }
+@media (min-width: 768px){
+	
+}
 .imagenPeq{
 	width: 10rem;
 	height: auto;
@@ -13,7 +16,9 @@
 }
 .imgProd{
  	width: 70%;
+ 	height: auto;
 }
+.
 /*Estilo de footer*/
 .edicionFooter {
 	background-color: #ffd6a5;
