@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	top: 0;
+}
+.imagenPeq{
+	width: 10rem;
+	height: auto;
+	padding-left: 20px;
+}
+.imgEventos{
+	width: 57%;
+	height: auto;
+}
+.imgProd{
+ 	width: 70%;
+}
+/*Estilo de footer*/
+.edicionFooter {
+	background-color: #ffd6a5;
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: #6d6875;
+}
+.edicionFooter ul li {
+	list-style: none;
+	text-decoration: none;
+}
+.edicionFooter img{
+	height: 18px;
+	width: 18px;
+}
+.edicionFooter a {
+	color: #FF5163;
+	text-decoration: none;
+}
+.edicionFooter a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.edicionFooter form{
+	padding-left: 40px;
+	padding-bottom: 30px;
+}
+#Footer .input text{
+	transition-property: width;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.3s;
+}
+#Footer .input text:focus {
+	width: 300px;
+}
